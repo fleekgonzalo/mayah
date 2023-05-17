@@ -59,7 +59,7 @@ export const useMirror = (publicationId: String) => {
           s,
           deadline: value.deadline,
         },
-      },
+      } as any,
       { gasLimit: 1000000 }
     );
 
